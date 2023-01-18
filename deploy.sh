@@ -8,7 +8,7 @@ cd dist
 
 git init
 git add -A 
-git commit -m "New Deployment"
+git commit -m "Update"
 git push -f git@github.com:lizuerjoey/eportfolio.git master:deploy
 
 cd -

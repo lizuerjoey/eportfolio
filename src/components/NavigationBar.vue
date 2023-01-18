@@ -21,7 +21,6 @@
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Learning Journey System</a>
-                        <a class="dropdown-item" href="#"></a>
                         <a class="dropdown-item" href="#">Improved BBDC App</a>
                         <a class="dropdown-item" href="#">MindFlex Music Page</a>
                         <a class="dropdown-item" href="#">MindFlex Free Test Paper Page</a>

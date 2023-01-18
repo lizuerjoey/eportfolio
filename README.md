@@ -5,7 +5,7 @@
 npm run serve
 ```
 
-### To deploy website
+### To deploy website (GitBash)
 ```
 npm run deploy
 ```
