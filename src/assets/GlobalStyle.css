@@ -7,7 +7,7 @@ section {
 }
 
 p {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans', sans-serif;
     color: #0A1930;
 }
 
@@ -19,10 +19,6 @@ p {
 .text {
     font-size: 15px;
     text-align: justify;
-}
-
-.no-col-text {
-    margin-left: 0px !important;
 }
 
 img {
@@ -60,13 +56,22 @@ button {
     color: #0A1930;
 }
 
+.highlighted-subtitle {
+    font-weight: bold;
+    color: #E6B86B;
+}
+
 .img-left-text-right {
     padding-left: 20px;
     text-align: justify;
 }
 
-.link {
+.link, .link:hover {
     color: #E6B86B;
+}
+
+.link:hover {
+    font-weight: bold;
 }
 
 footer {
@@ -79,4 +84,16 @@ footer {
 
 .footer-icons {
     padding: 10px 10px 0px 10px;
+}
+
+/* Tags */
+.uiux-tag, .programming-tag, .graphic-design-tag {
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.uiux-tag {
+    background-color: #E6B86B;
 }

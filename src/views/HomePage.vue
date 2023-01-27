@@ -39,8 +39,10 @@ export default {
     <section>
       <div class="container">
         <p class="title">Resume</p>
-        <div class="row no-col-text">
-          insert image of resume
+        <div class="row">
+          <div class="col-sm">
+            insert image of resume
+          </div>
         </div>
       </div>
     </section>
@@ -48,10 +50,10 @@ export default {
     <section class="beige-bg">
       <div class="container">
         <p class="title">Highlighted Projects here</p>
-        <div class="row no-col-text">
-          <p>
+        <div class="row">
+          <div class="col-sm">
             insert gallery here
-          </p>
+          </div>
         </div>
       </div>
     </section>
@@ -112,17 +114,6 @@ export default {
         </div>
       </div>
     </section>
-
-    <footer>
-      Lee Joey E-portfolio 2023
-      <br>
-      <a href="mailto:lizuer.joey@gmail.com">
-        <img class="footer-icons" src="../assets/email.png">
-      </a>
-      <a href="https://www.linkedin.com/in/lee-joey-568689141/" target="_blank">
-        <img class="footer-icons" src="../assets/linkedin.png">
-      </a>
-    </footer>
   </main>
 </template>
 
