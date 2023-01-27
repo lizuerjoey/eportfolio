@@ -31,10 +31,10 @@ export default {
                         <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/improved_bbdc_app/">
                             Improved BBDC App
                         </RouterLink>
-                        <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/mindflex_music_page/">
+                        <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/mindflex_music/">
                             MindFlex Music Page
                         </RouterLink>
-                        <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/mindflex_free_test_paper_page/">
+                        <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/mindflex_free_test_paper/">
                             MindFlex Free Test Paper Page
                         </RouterLink>
                         <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/shopee_ar_filter_and_business_insights/">
