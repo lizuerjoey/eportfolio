@@ -47,6 +47,19 @@ button {
     justify-content: center;
 }
 
+.tools-img {
+    padding: 5px;
+    width: 100% !important
+}
+
+/* On screens that are 575px or less */
+@media screen and (max-width: 575px) {
+    .tools-img {
+        width: 50% !important;
+        padding: 20px;
+    }
+}
+
 .image {
     flex-basis: 40%;
 }

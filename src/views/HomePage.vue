@@ -62,32 +62,56 @@ export default {
       <div class="container">
         <p class="title">Tools Used</p>
         <div class="row">
-          <div class="col-sm image-text-container">
-            <div class="image">
-              <img width=120 src="../assets/figma.png"/>
-            </div>
-            <div class="img-left-text-right">
+          <div class="col-sm-2 col-center">
+            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/figma.png"/>
+          </div>
+          <div class="col-sm-4 image-text-container">
+            <div>
               <p style="margin-bottom:0px" class="subtitle">Figma</p>
               <p style="margin-bottom:0px">
                 I used figma to draw out a mid-fi wireframe for this website. Click <a class="link" href="https://www.figma.com/file/iHenaskbJk3cMjLEvr5J5c/E-portfolio-2023?node-id=0%3A1&t=T3pKPXTFJ9LSjjQZ-1" target="_blank">here</a> to view the wireframe.
               </p>
             </div>
           </div>
-
-          <div class="col-sm image-text-container">
-            <div class="image">
-              <img width=110 src="../assets/github.png"/>
-            </div>
-            <div class="img-left-text-right">
+          <div class="col-sm-2 col-center">
+            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/github.png"/>
+          </div>
+          <div class="col-sm-4 image-text-container">
+            <div>
               <p style="margin-bottom:0px" class="subtitle">Github</p>
               <p style="margin-bottom:0px">
                 Previously, I used wix as my eportfolio. However, I thought that developing my own website would better showcase my interest in designing and development. Therefore, I code this website from scratch and learnt how to host my website on github.
               </p>
             </div>
-          </div>
+          </div>          
         </div>
 
         <div class="row">
+          <div class="col-sm-2 col-center">
+            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/vuejs.png"/>
+          </div>
+          <div class="col-sm-4 image-text-container">
+            <div>
+              <p style="margin-bottom:0px" class="subtitle">Vue Js</p>
+              <p style="margin-bottom:0px">
+                Had came across Vue Js in my course of study, and it wasn't my strongest suit. Therefore, I wanted to challenge myself by coding my own website using this framework. In the process I could learn something new as well!
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-2 col-center">
+            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/bootstrap.png"/>
+          </div>
+          <div class="col-sm-4 image-text-container">
+            <div>
+              <p style="margin-bottom:0px" class="subtitle">Bootstrap</p>
+              <p style="margin-bottom:0px">
+                On top of Vue Js, I included bootstrap in the project so that I could use some of its design features.
+              </p>
+            </div>
+          </div>          
+        </div>
+
+        <!-- <div class="row">
           <div class="col-sm image-text-container">
             <div class="image">
               <img width=120 src="../assets/vuejs.png"/>
@@ -111,7 +135,7 @@ export default {
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
       </div>
     </section>
   </main>
