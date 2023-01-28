@@ -1,14 +1,18 @@
 <script>
 import NavigationBar from '../../components/NavigationBar.vue';
+import PDFViewer from 'pdf-viewer-vue'
 
 export default {
   components: {
-    NavigationBar
+    NavigationBar,
+    PDFViewer
   },
   data() {
     return {
       page: "ui_ux",
-      ddl_link: "paylah"
+      ddl_link: "edm_microsite",
+      url: "src/views/ui_ux/Internship Poster.pdf",
+      base64: '<BASE64_ENCODED_PDF>',
     }
   }
 }
@@ -22,19 +26,10 @@ export default {
         <div class="row">
           <div class="col-sm">
             <div><span class="uiux-tag">UI/UX</span></div>
-            <p class="title">New Approach to DBS PayLah!</p>
+            <p class="title">EDM & Microsite</p>
             <p class="subtitle">WHY?</p>
             <p class="text">
-              As a student, one of my main concern was going to the top-up machine once a month to either top up my card or purchase concession. I wanted the student price so I didn't settle for using my debit card as my transport card. So it was quite a hassle to make a trip to the top-up machine.
-            </p>
-            <p class="text">
-              At that time, PayLah! was still a new app and after frequently using the app, I found the convenience of sending money through the app was simple and fuss-free. Suddenly, I had this thought of using PayLah! as a means of a more convenient and efficient way of topping up money or purchasing concession to my transport card through the app. In this way, I can do such processes anywhere anytime. Purposely making trips to the top-up machine will be no more! 
-            </p>
-            <p class="text">
-              Hence, during my internship at DBS Asia X in 2019, my supervisor tasked me to do up a wireframe of any app, I took the opportunity to draw this idea.
-            </p>
-            <p>
-              The application design needs to enhance an aspect of user experience of any application, it could be based on an existing DBS application or it could be a start-idea using the DBS Design Language. The DBS Design Language is a set of guidelines that DBS follows when they design a web or mobile application. 
+              For a UI/UX module assignment, a member of each team was required to revamp any digital application (e.g. website, microsite and order machine etc.) of a company chosen. My team chose Eagle Cinematics. However, after contacting with Eagle Cinematics, they do not have any EDM or Microsite to start of with. Therefore, I would need to create one.
             </p>
           </div>
         </div>
@@ -45,41 +40,27 @@ export default {
       <div class="container">
         <p class="title">The Process</p>
         <div class="row">
-          <div class="col-sm image-text-container">
-            <div>
-              <p class="highlighted-subtitle">
-              Step 1: Competitive Edge
-              </p>
-              <p class="text">
-                One of the benefits I had while doing my intern in DBS Asia X was to be able to attend a workshop dry run called Competitve Edge, where the goal is to find a competitive edge of a product (a function which other company does not have but also keeping in mind that the proposed function should meet customer needs) by comparing with similar products put out. Then, picking one idea to innovate on it. This exercise was done among the interns.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/competitive_edge_template.png" />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm image-text-container col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/competitive_edge_template_used.png" />
-          </div>
           <div class="col-sm">
             <div>
-              <p class="text">
-                Through the use of the template, we manage to narrow down to one customer need that DBS and other companies had yet to address, which was transportation on-the-go. This aligns with the problem I had thought in my own free time, and through this exercise, I found out many others had the same consensus as me. This strengthens that there is a need to solve the business problem.
+              <p class="highlighted-subtitle">
+              Step 1: Determine Microsite Purpose and Target Audience
               </p>
               <p class="text">
-                Since we had a problem statement, we identified what are the key words in the problem statement to streamline. The key words are transportation, DBS and customer. Leading to some questions raised:
+                Our team has created a 'dummy' theme for this assignment, which is Eagle Wings celebrating their 1st year anniversary and they plan to target students.
               </p>
-              <li>Which aspect of transport one wants to focus on, EzLink, Concession Pass or Tourist Pass?</li>
-              <li>Who is/ are the users?</li>
-              <li>Which DBS application to leverage on or designing a new one completely?</li>
-              <li>What software to design the application?</li>
-              <li>How will the application flow?</li>
-              <br>
-              <p class="text">These questions were useful when designing the application.</p>
+              <p class="text">
+                The proposed EDM will be sent out to EagleWings Cinematics members, targeting internal users; students to celebrate their one-year anniversary. They plan to appeal to young consumers since their cinema theatre is situated in the centre of schools like Ngee Ann and Singapore Polytechnic and Universities like NUS. Additionally, promotions and deals appeal well to students due to their tight budget and they have more free time compared to a working adult who works a 9-6pm shift every day.         
+              </p>
+              <p class="text">
+                I created a persona to showcase an example of EagleWings Cinematics target audience.
+              </p>
             </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/edm_microsite_persona.png" />
           </div>
         </div>
 
@@ -87,19 +68,13 @@ export default {
           <div class="col-sm image-text-container">
             <div>
               <p class="highlighted-subtitle">
-                Step 2: Low-Fidelity Prototype
+                Step 2: Heuristic Evaluation
               </p>
               <p class="text">
-                I focused on EzLink and Concession Pass only as I wanted to target students.
+                Since EagleWings Cinematics do not have EDM or a microsite, I conducted the heuristic evaluation on their competitor, Golden Village. Then, apply what I had analysed to my proposed EDM for EagleWings. 
               </p>
               <p class="text">
-                In my original idea, I wanted to integrate the PayLah! app and during the activity, many of my peers (who fit the target audience) also use PayLah!.
-              </p>
-              <p class="text">
-                Research was also conducted so to stay as true to the facts as possible. For instance, I research the various concession passes different types users can purchase. 
-              </p>
-              <p class="text">
-                Thus, I drafted out a very simple low fi of how I wanted the function to look like on the app.
+                Golden Village EDM has hit high marks in all areas, scoring at least a 4 in aspects such as Human, Forgiving, Self-evident, Predictable, Efficient and Trustworthy. However, it did not score as well for accessibility. It didn’t cater to colour-blind users. One reason could be that, for a media company, they cater to a larger audience that are not color-blind. However, one can never rule out the possibility that a colour-blind user cannot watch a movie. Therefore, in the later stage of design, not only do I have to consider the majority of users but colour blind users as well.
               </p>
             </div>
           </div>
@@ -108,10 +83,18 @@ export default {
           </div>
         </div>
 
+        <div>
+          <PDFViewer
+            :source="url"
+            style="height: 100vh; width: 100%; object-fit: contain;"
+            @download="handleDownload"
+          />
+        </div>
+
         <div class="row">  
           <div class="col-sm">
             <p class="highlighted-subtitle">
-              Step 3: Mid-Fidelity Prototype
+              Step 3: Information Architecture
             </p>
             <p class="text">
               Adobe XD was used to do the wireframes for the application. Click <a class="link" href="https://xd.adobe.com/view/28002f85-c253-4a36-44ee-dc46a92e923e-5e31/" target="_blank">here</a> to view my prototype!
@@ -144,7 +127,40 @@ export default {
           <div class="col-sm image-text-container">
             <div>
               <p class="highlighted-subtitle">
-                Step 4: User Workflow
+                Step 4: Low, Mid and High
+              </p>
+              <p class="text">
+                This UX workflow contains screenshots of all possible flows of the feature. Google Draw.io was utilised to design the user workflow.
+              </p>
+              <p class="text">
+                It contains 2 main workflows:
+                <ol>
+                  <li>Top Up MRT Card</li>
+                  <li>Purchase Student Concession</li>
+                </ol>
+              </p>
+              <p class="text">
+                In the 1st Flow, the user would key in the amount of money they want to top up and key in their NRIC.
+              </p>
+              <p class="text">
+                In the 2nd Flow, has another two different flows. As different levels of students e.g. secondary and tertiary levels concession pass would cost differently.
+              </p>
+              <p class="text">
+                Therefore, when the user key in their NRIC, it would check this user student level, and then determine the right concession price.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row">
+          <div class="col-sm col-center">
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/mrt_paylah_user_workflow.png" />
+          </div>
+          <div class="col-sm image-text-container">
+            <div>
+              <p class="highlighted-subtitle">
+                Step 5: Guerrilla Testing
               </p>
               <p class="text">
                 This UX workflow contains screenshots of all possible flows of the feature. Google Draw.io was utilised to design the user workflow.

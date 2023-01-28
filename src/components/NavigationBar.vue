@@ -25,25 +25,25 @@ export default {
                     UI/UX
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/learning_journey_system/">
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='ljs'}" to="/eportfolio/ui_ux/learning_journey_system/">
                             Learning Journey System
                         </RouterLink>
-                        <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/improved_bbdc_app/">
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='bbdc'}" to="/eportfolio/ui_ux/improved_bbdc_app/">
                             Improved BBDC App
                         </RouterLink>
-                        <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/mindflex_music/">
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='mindflex_music'}" to="/eportfolio/ui_ux/mindflex_music/">
                             MindFlex Music Page
                         </RouterLink>
-                        <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/mindflex_free_test_paper/">
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='mindflex_testpapers'}" to="/eportfolio/ui_ux/mindflex_free_test_paper/">
                             MindFlex Free Test Paper Page
                         </RouterLink>
-                        <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/shopee_ar_filter_and_business_insights/">
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='shopee2020'}" to="/eportfolio/ui_ux/shopee_ar_filter_and_business_insights/">
                             Shopee AR Filter & Business Insights
                         </RouterLink>
-                        <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/elderly_phone_app_patch/">
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='patch'}" to="/eportfolio/ui_ux/elderly_phone_app_patch/">
                             Elderly Phone App (Patch)
                         </RouterLink>
-                        <RouterLink class="dropdown-item" to="/eportfolio/ui_ux/edm_and_microsite/">
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='edm_microsite'}" to="/eportfolio/ui_ux/edm_and_microsite/">
                             EDM & Microsite
                         </RouterLink>
                         <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='paylah'}" to="/eportfolio/ui_ux/new_approach_to_paylah_app/">
