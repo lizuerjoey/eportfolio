@@ -52,11 +52,25 @@ button {
     width: 100% !important
 }
 
-/* On screens that are 575px or less */
+/* On screens that are 540px or less */
 @media screen and (max-width: 575px) {
     .tools-img {
         width: 50% !important;
         padding: 20px;
+    }
+}
+
+/* On screens that are 535px or less */
+@media screen and (max-width: 540px) {
+    .hide-pdf {
+        display: none !important;
+    }
+}
+
+/* On screens that are 540px or more */
+@media screen and (min-width: 540px) {
+    .show-pdf-link {
+        display: none !important;  
     }
 }
 

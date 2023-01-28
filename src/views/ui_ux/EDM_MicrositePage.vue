@@ -11,8 +11,8 @@ export default {
     return {
       page: "ui_ux",
       ddl_link: "edm_microsite",
-      url: "src/views/ui_ux/Internship Poster.pdf",
-      base64: '<BASE64_ENCODED_PDF>',
+      url: ""
+      // url: "../../files/ux_indiv_assignment_compressed.pdf",
     }
   }
 }
@@ -83,12 +83,19 @@ export default {
           </div>
         </div>
 
-        <div>
-          <PDFViewer
-            :source="url"
-            style="height: 100vh; width: 100%; object-fit: contain;"
-            @download="handleDownload"
-          />
+        <div class="row">
+          <div class="col-sm">
+            <PDFViewer
+              class="hide-pdf"
+              :source="url"
+              style="height:100vh; object-fit: contain;"
+              @download="handleDownload"
+            />
+
+            <div class="show-pdf-link">
+              <a class="link" href="../../files/ux_indiv_assignment_compressed.pdf" target="_blank">here</a>
+            </div>
+          </div>
         </div>
 
         <div class="row">  
