@@ -1,11 +1,11 @@
 <script>
 import NavigationBar from '../../components/NavigationBar.vue';
-import PDFViewer from 'pdf-viewer-vue'
+// import PDFViewer from 'pdf-viewer-vue'
 
 export default {
   components: {
     NavigationBar,
-    PDFViewer
+    // PDFViewer
   },
   data() {
     return {
@@ -79,11 +79,46 @@ export default {
             </div>
           </div>
           <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/low_fi.jpg" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/heuristic_evaluation.png" />
           </div>
         </div>
 
         <div class="row">
+          <div class="col-sm col-center image-text-container">
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/proposed_information_architecture.png" />
+          </div>
+          <div class="col-sm">
+            <div>
+              <p class="highlighted-subtitle">
+                Step 3: Proposed Information Architecture
+              </p>
+              <p class="text">
+                A strict singular hierarchy describes a system where you can only access a low-level page via its parent. In this aspect, EDM would be the parent where the users can only access the pages of microsite by clicking on the button on the EDM. Subsequently, each child; i.e. the pages of the microsite can be linked to another child of the parent. In this manner, the pages of a microsite are interconnected and can be redirected through the pages. Information Architecture like multi-dimensional is not necessary as the EDM and microsite have only one way of browsing to the same content. It is also on a smaller scare compared to the main website, there are no hierarchies that overlaid on the same content. Also, it will only be used for certain occasions thus applying a simple information architecture like strict singular hierarchy is an efficient choice.
+              </p>
+              <p class="text">
+                Therefore, I used the Strict Singular Hierarchy to design the microsite as this microsite is for EagleWings anniversary event; a one time small scale event where there are few pages. Among the few pages, there are no hierarchies that overlaid on the same content. I believe that a Strict Singular Hierarchy would be the most effective in conveying information efficiently to users.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <div>
+              <p class="highlighted-subtitle">
+                Step 4: Low, Mid and High-Fidelity
+              </p>
+              <p class="text">
+                I used <span class="highlight">Adobe XD</span> to draw out the low and mid-fidelity wireframes for the microsite. While I used <span class="highlight">Adobe Illustrator</span> to draw both mid and high-fidelity for the EDM. Then, using Wix as a medium to illustrate the high-fidelity microsite. Please refer to page 45-67 in my <a class="link" href="../../files/ux_indiv_assignment_compressed.pdf" target="_blank">report</a> for low, mid and high-fidelity screenshots of the microsites.
+              </p>
+              <p>
+                The idea is allowing users to click on the EDM then bringing the user to interact with the microsite like a game and win an award once compeleted.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="row">
           <div class="col-sm">
             <PDFViewer
               class="hide-pdf"
@@ -93,76 +128,20 @@ export default {
             />
 
             <div class="show-pdf-link">
-              <a class="link" href="../../files/ux_indiv_assignment_compressed.pdf" target="_blank">here</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">  
-          <div class="col-sm">
-            <p class="highlighted-subtitle">
-              Step 3: Information Architecture
-            </p>
-            <p class="text">
-              Adobe XD was used to do the wireframes for the application. Click <a class="link" href="https://xd.adobe.com/view/28002f85-c253-4a36-44ee-dc46a92e923e-5e31/" target="_blank">here</a> to view my prototype!
-            </p>
-            <p class="text">
-              With reference to the DBS Design Language, a website consists of guidelines to follow when DBS design their digital products.
-            </p>
-            <p class="text">
-              Some examples of how the DBS Design Language Guidelines was considered and applied into the application.
-            </p>
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/radio_button_guideline.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/radio_button_guideline_applied.png" />
-            <p class="text text-center pt-3">
-              Design of radio button remains, and icon placed behind text instead of the radio button.
-            </p>
-
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_1.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_2.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_applied.png" />
-            <p class="text text-center pt-3">
-              I dimmed the screen and the text is below. However, one limitation was that I was unable to find the same loading icon.
-            </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/mrt_paylah_user_workflow.png" />
-          </div>
-          <div class="col-sm image-text-container">
-            <div>
-              <p class="highlighted-subtitle">
-                Step 4: Low, Mid and High
-              </p>
               <p class="text">
-                This UX workflow contains screenshots of all possible flows of the feature. Google Draw.io was utilised to design the user workflow.
-              </p>
-              <p class="text">
-                It contains 2 main workflows:
-                <ol>
-                  <li>Top Up MRT Card</li>
-                  <li>Purchase Student Concession</li>
-                </ol>
-              </p>
-              <p class="text">
-                In the 1st Flow, the user would key in the amount of money they want to top up and key in their NRIC.
-              </p>
-              <p class="text">
-                In the 2nd Flow, has another two different flows. As different levels of students e.g. secondary and tertiary levels concession pass would cost differently.
-              </p>
-              <p class="text">
-                Therefore, when the user key in their NRIC, it would check this user student level, and then determine the right concession price.
+                Interested to know about the detailed steps?
+                The PDFViewer is too big to view on this screen size. Click
+                <a class="link" href="../../files/ux_indiv_assignment_compressed.pdf" target="_blank">here</a>
+                to view my report.
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
 
 
         <div class="row">
           <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/mrt_paylah_user_workflow.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/high_fid_poster.png" />
           </div>
           <div class="col-sm image-text-container">
             <div>
@@ -170,23 +149,10 @@ export default {
                 Step 5: Guerrilla Testing
               </p>
               <p class="text">
-                This UX workflow contains screenshots of all possible flows of the feature. Google Draw.io was utilised to design the user workflow.
+                Guerilla Testing is an easy-to-perform, affordable and efficient technique. As I am designing an EDM and microsite for EagleWings; a cinema company, and also targeting polytechnic and universities students, thus the best place for testing would be at a cinema. However, I would assume that a student of that age would been to a cinema at least once. Therefore, I have found five people who fits the targetted demographic to conduct the testing with. While the participants did the test, I observed their emotions and behaviour, and when the participant talk about his experince when using, I would note it down. Thereafter, I made improvements in the next iteration based on their feedbacks.
               </p>
               <p class="text">
-                It contains 2 main workflows:
-                <ol>
-                  <li>Top Up MRT Card</li>
-                  <li>Purchase Student Concession</li>
-                </ol>
-              </p>
-              <p class="text">
-                In the 1st Flow, the user would key in the amount of money they want to top up and key in their NRIC.
-              </p>
-              <p class="text">
-                In the 2nd Flow, has another two different flows. As different levels of students e.g. secondary and tertiary levels concession pass would cost differently.
-              </p>
-              <p class="text">
-                Therefore, when the user key in their NRIC, it would check this user student level, and then determine the right concession price.
+                Click <a class="link" href="https://s10179145.wixsite.com/mysite" target="_blank">here</a> to view my improved microsite!
               </p>
             </div>
           </div>

@@ -111,7 +111,7 @@ export default {
         <div class="row">  
           <div class="col-sm">
             <p class="highlighted-subtitle">
-              Step 3: Mid-Fidelity Prototype
+              Step 3: High-Fidelity Prototype
             </p>
             <p class="text">
               Adobe XD was used to do the wireframes for the application. Click <a class="link" href="https://xd.adobe.com/view/28002f85-c253-4a36-44ee-dc46a92e923e-5e31/" target="_blank">here</a> to view my prototype!

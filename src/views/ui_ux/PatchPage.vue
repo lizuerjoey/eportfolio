@@ -8,7 +8,10 @@ export default {
   data() {
     return {
       page: "ui_ux",
-      ddl_link: "paylah"
+      ddl_link: "patch",
+      slides: { url: ["../../../public/files/patch_pitch_slides/Slide2.png", 
+      "../../../public/files/patch_pitch_slides/Slide3.png"]
+      }
     }
   }
 }
@@ -22,19 +25,10 @@ export default {
         <div class="row">
           <div class="col-sm">
             <div><span class="uiux-tag">UI/UX</span></div>
-            <p class="title">New Approach to DBS PayLah!</p>
+            <p class="title">Elderly Phone App (Patch)</p>
             <p class="subtitle">WHY?</p>
             <p class="text">
-              As a student, one of my main concern was going to the top-up machine once a month to either top up my card or purchase concession. I wanted the student price so I didn't settle for using my debit card as my transport card. So it was quite a hassle to make a trip to the top-up machine.
-            </p>
-            <p class="text">
-              At that time, PayLah! was still a new app and after frequently using the app, I found the convenience of sending money through the app was simple and fuss-free. Suddenly, I had this thought of using PayLah! as a means of a more convenient and efficient way of topping up money or purchasing concession to my transport card through the app. In this way, I can do such processes anywhere anytime. Purposely making trips to the top-up machine will be no more! 
-            </p>
-            <p class="text">
-              Hence, during my internship at DBS Asia X in 2019, my supervisor tasked me to do up a wireframe of any app, I took the opportunity to draw this idea.
-            </p>
-            <p>
-              The application design needs to enhance an aspect of user experience of any application, it could be based on an existing DBS application or it could be a start-idea using the DBS Design Language. The DBS Design Language is a set of guidelines that DBS follows when they design a web or mobile application. 
+              Why are people focusing more on the physical side of health? Many elderly folks in Singapore are <span class="highlight">“forgotten by society”</span> with people going out of their way to <span class="highlight">avoid them</span> due to their mental health issues. Why is there such stigma surrounding these conditions? In 2014, there were <span class="highlight">126</span> cases of elderly suicide and now, in 2018, can you imagine just how many cases of suicides there will be if we do not take action to improve these problems? With <span class="highlight">PATCH</span>, we are trying to integrate the current technology to help <span class="highlight">patch</span> the holes in their heart caused by loneliness and free them from social isolation.
             </p>
           </div>
         </div>
@@ -45,127 +39,292 @@ export default {
       <div class="container">
         <p class="title">The Process</p>
         <div class="row">
-          <div class="col-sm image-text-container">
-            <div>
-              <p class="highlighted-subtitle">
-              Step 1: Competitive Edge
-              </p>
-              <p class="text">
-                One of the benefits I had while doing my intern in DBS Asia X was to be able to attend a workshop dry run called Competitve Edge, where the goal is to find a competitive edge of a product (a function which other company does not have but also keeping in mind that the proposed function should meet customer needs) by comparing with similar products put out. Then, picking one idea to innovate on it. This exercise was done among the interns.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/competitive_edge_template.png" />
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm image-text-container col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/competitive_edge_template_used.png" />
-          </div>
           <div class="col-sm">
             <div>
-              <p class="text">
-                Through the use of the template, we manage to narrow down to one customer need that DBS and other companies had yet to address, which was transportation on-the-go. This aligns with the problem I had thought in my own free time, and through this exercise, I found out many others had the same consensus as me. This strengthens that there is a need to solve the business problem.
+              <p class="highlighted-subtitle">
+              Step 1: Market Research
               </p>
               <p class="text">
-                Since we had a problem statement, we identified what are the key words in the problem statement to streamline. The key words are transportation, DBS and customer. Leading to some questions raised:
+                The above pitch slides describes how we have conducted our research online and offline to support our findings for the above problem. We have researched and found articles evident that elderly is still facing emotional issues and nobody is solving them. After ideation, we went to conduct market research with the elderly ages 55 and above around community centers. We have collated around <span class="highlight">72 responses</span>. This survey was used to find out whether elderly were tech savvy enough to use our application or would be interested to use our application. This would give us the insight for our team to start the development of the idea or think of a new one.
               </p>
-              <li>Which aspect of transport one wants to focus on, EzLink, Concession Pass or Tourist Pass?</li>
-              <li>Who is/ are the users?</li>
-              <li>Which DBS application to leverage on or designing a new one completely?</li>
-              <li>What software to design the application?</li>
-              <li>How will the application flow?</li>
-              <br>
-              <p class="text">These questions were useful when designing the application.</p>
+            </div>
+          </div>
+        </div>
+
+        <dv class="row">
+          <div class="col-sm">
+            <div id="pitch_slides" style="object-fit: contain;" class="carousel slide" data-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide1.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide2.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide3.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide4.png" >
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide5.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide6.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide7.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide8.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide9.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide10.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide11.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_pitch_slides/Slide12.png">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#pitch_slides" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#pitch_slides" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </dv>
+
+        <div class="row">
+          <div class="col-sm image-text-container">
+            <div>
+              <p class="highlighted-subtitle">
+                Step 2: User Stories
+              </p>
+              <p class="text">
+                The app allows elderly to match up with strangers of similar hobby of age. Connect and socialise with new friends. Aim that through the app, it will patch up the holes of loneliness in their hearts.
+              </p>
+              <p class="text">
+                With the main functions of the app in mind, we created user stories and placed them on our scrum board, following a 2 week sprint closely in our app development.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm col-center">
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/user_stories.webp" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm col-center">
+            <div id="elderly_ui" style="object-fit: contain;" class="carousel slide" data-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/1.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/2.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/3.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/4.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/5.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/6.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/7.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/8.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/9.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/10.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/11.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/12.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/13.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/14.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/15.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/16.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/17.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/18.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/19.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/20.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/21.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/22.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/elderly/23.png">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#elderly_ui" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#elderly_ui" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm image-text-container">
+            <div>
+              <p class="highlighted-subtitle">
+                Step 3A: Our Design (Elderly Users)
+              </p>
+              <p class="text">
+                Our target audience is the elderly, so the design will be fitted to their needs such as larger and easy to read fonts, unnecessary features to reduce complication, specific colours that stimulate elderlys' attention and so on. Through our interview analysis, we concluded the top few hobbies that were popular among the elderly. We also took into consideration that not all elderly are English literate thus, we implemented a Chinese language option. We chose Chinese because it was the second most literate language among the elderly.
+              </p>
             </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm image-text-container">
-            <div>
-              <p class="highlighted-subtitle">
-                Step 2: Low-Fidelity Prototype
-              </p>
-              <p class="text">
-                I focused on EzLink and Concession Pass only as I wanted to target students.
-              </p>
-              <p class="text">
-                In my original idea, I wanted to integrate the PayLah! app and during the activity, many of my peers (who fit the target audience) also use PayLah!.
-              </p>
-              <p class="text">
-                Research was also conducted so to stay as true to the facts as possible. For instance, I research the various concession passes different types users can purchase. 
-              </p>
-              <p class="text">
-                Thus, I drafted out a very simple low fi of how I wanted the function to look like on the app.
-              </p>
-            </div>
+              <div>
+                <p class="highlighted-subtitle">
+                  Step 3B: Our Design (Admin Users)
+                </p>
+                <p class="text">
+                  The app also consist of secondary features which will be utilised by our Admin Staff. Assuming that these staffs will be young adults hence I went with a simple design, not forgetting about our corporate colour and taking our team programmers' opinions on the level of difficulty when coding the design out.
+                </p>
+              </div>
           </div>
           <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/low_fi.jpg" />
+            <div id="admin_ui" style="object-fit: contain;" class="carousel slide" data-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/1.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/2.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/3.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/4.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/5.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/6.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/7.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/8.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/9.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/10.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/11.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/patch_app_ui/admin/12.png">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#admin_ui" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#admin_ui" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="row">  
+        <div class="row">
           <div class="col-sm">
             <p class="highlighted-subtitle">
-              Step 3: Mid-Fidelity Prototype
+                Step 4: Poster
             </p>
             <p class="text">
-              Adobe XD was used to do the wireframes for the application. Click <a class="link" href="https://xd.adobe.com/view/28002f85-c253-4a36-44ee-dc46a92e923e-5e31/" target="_blank">here</a> to view my prototype!
-            </p>
-            <p class="text">
-              With reference to the DBS Design Language, a website consists of guidelines to follow when DBS design their digital products.
-            </p>
-            <p class="text">
-              Some examples of how the DBS Design Language Guidelines was considered and applied into the application.
-            </p>
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/radio_button_guideline.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/radio_button_guideline_applied.png" />
-            <p class="text text-center pt-3">
-              Design of radio button remains, and icon placed behind text instead of the radio button.
-            </p>
-
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_1.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_2.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_applied.png" />
-            <p class="text text-center pt-3">
-              I dimmed the screen and the text is below. However, one limitation was that I was unable to find the same loading icon.
+              As the main designer of the team, not only did I designed the UI of the app, I also designed other documents like slides and the poster. For our team's poster to showcase our app during the 2019 Ngee Ann Demo Day, I came up with three designs:
             </p>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/mrt_paylah_user_workflow.png" />
+          <div class="col-sm">
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/patch_poster_1.webp" />
           </div>
-          <div class="col-sm image-text-container">
-            <div>
-              <p class="highlighted-subtitle">
-                Step 4: User Workflow
-              </p>
-              <p class="text">
-                This UX workflow contains screenshots of all possible flows of the feature. Google Draw.io was utilised to design the user workflow.
-              </p>
-              <p class="text">
-                It contains 2 main workflows:
-                <ol>
-                  <li>Top Up MRT Card</li>
-                  <li>Purchase Student Concession</li>
-                </ol>
-              </p>
-              <p class="text">
-                In the 1st Flow, the user would key in the amount of money they want to top up and key in their NRIC.
-              </p>
-              <p class="text">
-                In the 2nd Flow, has another two different flows. As different levels of students e.g. secondary and tertiary levels concession pass would cost differently.
-              </p>
-              <p class="text">
-                Therefore, when the user key in their NRIC, it would check this user student level, and then determine the right concession price.
-              </p>
-            </div>
+          <div class="col-sm">
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/patch_poster_2.webp" />
+          </div>
+          <div class="col-sm">
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/patch_poster_3.webp" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <p class="text">
+              Our target group for this poster is not for the elderly to read but for the younger generation hence I used vibrant colours such as orange and red. I chose orange because it brings a feeling of friendliness and red is a striking colour that alerts people.
+            </p>
+            <p class="text">
+              My groupmates chose the 3rd poster on the right as the best one. My teacher gave his feedback - that the heading should be more clear. Hence, I made an improved version heading his comments.
+            </p>
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/final_patch_poster.webp" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm">
+            <p class="highlighted-subtitle">
+              Step 5: Blog
+            </p>
+            <p class="text">
+              Throughout this project, I created a blog whereby I updated weekly on my progress. Click <a class="link" href="https://leejoeyfp2.wixsite.com/leejoeysite/blog/categories/fsd-p2" target="_blank">here</a> to read my blog!
+            </p>
           </div>
         </div>
       </div>

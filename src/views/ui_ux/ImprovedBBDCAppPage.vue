@@ -8,7 +8,7 @@ export default {
   data() {
     return {
       page: "ui_ux",
-      ddl_link: "paylah"
+      ddl_link: "bbdc"
     }
   }
 }

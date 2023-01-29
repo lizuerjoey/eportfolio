@@ -74,6 +74,12 @@ button {
     }
 }
 
+.highlight {
+    background-color: #E6B86B;
+    color: white;
+    padding: 0 3px;
+}
+
 .image {
     flex-basis: 40%;
 }
