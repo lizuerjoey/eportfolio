@@ -25,9 +25,6 @@ export default {
                     UI/UX
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='ljs'}" to="/eportfolio/ui_ux/learning_journey_system/">
-                            Learning Journey System
-                        </RouterLink>
                         <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='bbdc'}" to="/eportfolio/ui_ux/improved_bbdc_app/">
                             Improved BBDC App
                         </RouterLink>
@@ -54,32 +51,59 @@ export default {
 
                 <!--Programming-->
                 <li class="nav-item dropdown">
-                    <a class="nav-link pr-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link pr-4 dropdown-toggle" :class="{'page-selected': page=='prg'}" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Programming
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">MindFlex App</a>
-                        <a class="dropdown-item" href="#">MindFlex Whatsapp and Telegram</a>
-                        <a class="dropdown-item" href="#">MindFlex Operations Website (3 kinds)</a>
-                        <a class="dropdown-item" href="#">MindFlex Blog Tabs </a>
-                        <a class="dropdown-item" href="#">MindFlex Click to Know More</a>
-                        <a class="dropdown-item" href="#">MindFlex Web Scraping</a>
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='ljs'}" to="/eportfolio/programming/learning_journey_system/">
+                            Learning Journey System
+                        </RouterLink>
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='app'}" to="/eportfolio/programming/mindflex_app/">
+                            MindFlex App
+                        </RouterLink>
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='wa_tele'}" to="/eportfolio/programming/mindflex_whatsapp_and_telegram/">
+                            MindFlex Whatsapp and Telegram
+                        </RouterLink>
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='operations'}" to="/eportfolio/programming/mindflex_operations/">
+                            MindFlex Operations Website (3 kinds)
+                        </RouterLink>
+                        <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='operations'}" to="/eportfolio/programming/mindflex_operations/">
+                            MindFlex Blog Tabs
+                        </RouterLink> -->
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='front_end'}" to="/eportfolio/programming/click_to_know_more/">
+                            MindFlex Click to Know More
+                        </RouterLink>
+                        <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='operations'}" to="/eportfolio/programming/mindflex_operations/">
+                            MindFlex Web Scraping
+                        </RouterLink> -->
                     </div>
                 </li>
 
                 <!--Graphic Design-->
                 <li class="nav-item dropdown">
-                    <a class="nav-link pr-4 dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link pr-4 dropdown-toggle" :class="{'page-selected': page=='graphic'}" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Graphic Design
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">DBS Asia X Visual Branding</a>
-                        <a class="dropdown-item" href="#">Digital Forensic Poster</a>
-                        <a class="dropdown-item" href="#">Sportsday Badge</a>
-                        <a class="dropdown-item" href="#">Game Card (Hunt)</a>
-                        <a class="dropdown-item" href="#">Game Card (Scissors, Paper, Stone)</a>
-                        <a class="dropdown-item" href="#">Internship Poster</a>
-                        <a class="dropdown-item" href="#">Clip and Go Poster</a>
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='dbs_asiax'}" to="/eportfolio/graphic_design/dbs_asia_x_visual_branding/">
+                            DBS Asia X Visual Branding
+                        </RouterLink>
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='sportsday_badge'}" to="/eportfolio/graphic_design/sportsday_badge/">
+                            Sportsday Badge
+                        </RouterLink>
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='game_card_1'}" to="/eportfolio/graphic_design/game_card_hunt/">
+                            Game Card (Hunt)
+                        </RouterLink>
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='game_card_2'}" to="/eportfolio/graphic_design/game_card_scissors_paper_stone/">
+                            Game Card (Scissors, Paper, Stone)
+                        </RouterLink>
+                        <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='forensic_poster'}" to="/eportfolio/graphic_design/digital_forensic_poster/">
+                            Digital Forensic Poster
+                        </RouterLink>
+                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='internship_poster'}" to="/eportfolio/graphic_design/internship_poster/">
+                            Internship Poster
+                        </RouterLink> -->
+                        <!-- <a class="dropdown-item" href="#">Clip and Go Poster</a> -->
                     </div>
                 </li>
 

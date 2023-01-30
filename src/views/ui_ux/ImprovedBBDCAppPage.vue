@@ -8,7 +8,9 @@ export default {
   data() {
     return {
       page: "ui_ux",
-      ddl_link: "bbdc"
+      ddl_link: "bbdc",
+      figma_url: "https://www.figma.com/file/HnIZo9aNutveVeVvLakUIl/BBDC-App-(Final)?node-id=0%3A1&t=KWnRUhaGExx2GRnS-1",
+      prototype_url: "https://www.figma.com/proto/HnIZo9aNutveVeVvLakUIl/BBDC-App-(Final)?node-id=63%3A2913&scaling=scale-down&page-id=0%3A1&starting-point-node-id=63%3A2913&show-proto-sidebar=1"
     }
   }
 }
@@ -22,19 +24,27 @@ export default {
         <div class="row">
           <div class="col-sm">
             <div><span class="uiux-tag">UI/UX</span></div>
-            <p class="title">New Approach to DBS PayLah!</p>
+            <p class="title">Improved BBDC App</p>
             <p class="subtitle">WHY?</p>
             <p class="text">
-              As a student, one of my main concern was going to the top-up machine once a month to either top up my card or purchase concession. I wanted the student price so I didn't settle for using my debit card as my transport card. So it was quite a hassle to make a trip to the top-up machine.
+              Bukit Batok Driving Centre (BBDC) lacks technological adoption despite them having a large number of customers. Efforts towards digitalisation were minimal, where they have an application which only has limited functionalities. Overall customer satisfaction is also extremely poor due to the inefficient online procedures and long waiting times at the BBDC while booking for class timings.
             </p>
             <p class="text">
-              At that time, PayLah! was still a new app and after frequently using the app, I found the convenience of sending money through the app was simple and fuss-free. Suddenly, I had this thought of using PayLah! as a means of a more convenient and efficient way of topping up money or purchasing concession to my transport card through the app. In this way, I can do such processes anywhere anytime. Purposely making trips to the top-up machine will be no more! 
+              The current application only shows details of the latest class and does not allow any changes to your bookings. Topping up of account balance is also not available on the app. Given that the application merely displays information, BBDC can thus be said to only be in the digitalisation stage. Hence, they can leverage much more on their application to transform digitally and add value to their centre. 
             </p>
             <p class="text">
-              Hence, during my internship at DBS Asia X in 2019, my supervisor tasked me to do up a wireframe of any app, I took the opportunity to draw this idea.
+              To have a better understanding of BBDC’s background, our group conducted a survey to find out more about customers' pain points and frustrations. From the survey results, <span class="highlight">more than half</span> respondents felt that waiting time in public driving centres as compared to private is much longer and ultimately prefers to opt for private lessons.
             </p>
-            <p>
-              The application design needs to enhance an aspect of user experience of any application, it could be based on an existing DBS application or it could be a start-idea using the DBS Design Language. The DBS Design Language is a set of guidelines that DBS follows when they design a web or mobile application. 
+            <p class="text">
+              The main problems that our group has therefore identified is that:
+            </p>
+            <ol>
+              <li>The online services are ineffective and inefficient.</li>
+              <li>Users are unable to track their learning progress through the entire journey.</li>
+              <li>Payment process is very time consuming.</li>
+            </ol>
+            <p class="text">
+              Overall, the existing application lacks essential features.
             </p>
           </div>
         </div>
@@ -48,122 +58,146 @@ export default {
           <div class="col-sm image-text-container">
             <div>
               <p class="highlighted-subtitle">
-              Step 1: Competitive Edge
+                Step 1: Proposed Solution
               </p>
               <p class="text">
-                One of the benefits I had while doing my intern in DBS Asia X was to be able to attend a workshop dry run called Competitve Edge, where the goal is to find a competitive edge of a product (a function which other company does not have but also keeping in mind that the proposed function should meet customer needs) by comparing with similar products put out. Then, picking one idea to innovate on it. This exercise was done among the interns.
+                Firstly, we will be improving the current BBDC app which we will be focusing on:
+              </p>
+              <ol>
+                <li>Efficiency</li>
+                <li>Student's Learning Curve</li>
+              </ol>
+              <p class="text">
+                Our main target audience who will be using the app are students learning driving, and our secondary will be instructors. This is because we also aim to cultivate an open minded for both students and instructurs by a two-way feedback loop to each other.
+              </p>
+              <p class="text">
+                Addiitonaly, we plan to propose analytical features for:
+              </p>
+              <ol>
+                <li>BBDC Backend</li>
+                <li>Students</li>
+                <li>Instructors</li>
+              </ol>
+              <p class="text">
+                Below is our slides which showcases our solution in more details.
               </p>
             </div>
-          </div>
-          <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/competitive_edge_template.png" />
           </div>
         </div>
 
         <div class="row">
-          <div class="col-sm image-text-container col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/competitive_edge_template_used.png" />
-          </div>
-          <div class="col-sm">
-            <div>
-              <p class="text">
-                Through the use of the template, we manage to narrow down to one customer need that DBS and other companies had yet to address, which was transportation on-the-go. This aligns with the problem I had thought in my own free time, and through this exercise, I found out many others had the same consensus as me. This strengthens that there is a need to solve the business problem.
-              </p>
-              <p class="text">
-                Since we had a problem statement, we identified what are the key words in the problem statement to streamline. The key words are transportation, DBS and customer. Leading to some questions raised:
-              </p>
-              <li>Which aspect of transport one wants to focus on, EzLink, Concession Pass or Tourist Pass?</li>
-              <li>Who is/ are the users?</li>
-              <li>Which DBS application to leverage on or designing a new one completely?</li>
-              <li>What software to design the application?</li>
-              <li>How will the application flow?</li>
-              <br>
-              <p class="text">These questions were useful when designing the application.</p>
+          <div class="col-sm col-center">
+            <div id="bbdc_slides" style="object-fit: contain;" class="carousel slide" data-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide1.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide2.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide3.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide4.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide5.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide6.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide7.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide8.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide9.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide10.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide11.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide12.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide14.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide15.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide16.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide17.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide18.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide19.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide20.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide21.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide22.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide23.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide24.png">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="../../../public/files/bbdc_slides/Slide25.png">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#bbdc_slides" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#bbdc_slides" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
             </div>
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm image-text-container">
-            <div>
-              <p class="highlighted-subtitle">
-                Step 2: Low-Fidelity Prototype
-              </p>
-              <p class="text">
-                I focused on EzLink and Concession Pass only as I wanted to target students.
-              </p>
-              <p class="text">
-                In my original idea, I wanted to integrate the PayLah! app and during the activity, many of my peers (who fit the target audience) also use PayLah!.
-              </p>
-              <p class="text">
-                Research was also conducted so to stay as true to the facts as possible. For instance, I research the various concession passes different types users can purchase. 
-              </p>
-              <p class="text">
-                Thus, I drafted out a very simple low fi of how I wanted the function to look like on the app.
-              </p>
-            </div>
+            <video style="height:auto; width: 100%" controls>
+              <source src="../../../public/files/bbdc_demo.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
           </div>
-          <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/low_fi.jpg" />
-          </div>
-        </div>
-
-        <div class="row">  
           <div class="col-sm">
-            <p class="highlighted-subtitle">
-              Step 3: Mid-Fidelity Prototype
-            </p>
-            <p class="text">
-              Adobe XD was used to do the wireframes for the application. Click <a class="link" href="https://xd.adobe.com/view/28002f85-c253-4a36-44ee-dc46a92e923e-5e31/" target="_blank">here</a> to view my prototype!
-            </p>
-            <p class="text">
-              With reference to the DBS Design Language, a website consists of guidelines to follow when DBS design their digital products.
-            </p>
-            <p class="text">
-              Some examples of how the DBS Design Language Guidelines was considered and applied into the application.
-            </p>
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/radio_button_guideline.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/radio_button_guideline_applied.png" />
-            <p class="text text-center pt-3">
-              Design of radio button remains, and icon placed behind text instead of the radio button.
-            </p>
-
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_1.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_2.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_applied.png" />
-            <p class="text text-center pt-3">
-              I dimmed the screen and the text is below. However, one limitation was that I was unable to find the same loading icon.
-            </p>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/mrt_paylah_user_workflow.png" />
-          </div>
-          <div class="col-sm image-text-container">
             <div>
               <p class="highlighted-subtitle">
-                Step 4: User Workflow
+                Step 2: High-Fidelity Prototype
               </p>
               <p class="text">
-                This UX workflow contains screenshots of all possible flows of the feature. Google Draw.io was utilised to design the user workflow.
+                We used figma to draw out the wireframes. It was my first using figma and I learnt interesting features such as plugins and creating components. 
               </p>
               <p class="text">
-                It contains 2 main workflows:
-                <ol>
-                  <li>Top Up MRT Card</li>
-                  <li>Purchase Student Concession</li>
-                </ol>
+                There are 2 flows, students and instructors. Under students's flow, there are 4 sub flows:
               </p>
+              <li>Sub Flow 1: Book Classes/ Exams</li>
+              <li>Sub Flow 2: Modify Booked Classes/ Exams</li>
+              <li>Sub Flow 3: Student's Give Feedback to Instructor</li>
+              <li>Sub Flow 4: Student's Learning Curve</li>
               <p class="text">
-                In the 1st Flow, the user would key in the amount of money they want to top up and key in their NRIC.
-              </p>
-              <p class="text">
-                In the 2nd Flow, has another two different flows. As different levels of students e.g. secondary and tertiary levels concession pass would cost differently.
-              </p>
-              <p class="text">
-                Therefore, when the user key in their NRIC, it would check this user student level, and then determine the right concession price.
+                Click <a class="link" :href=figma_url target="_blank">here</a> and <a class="link" :href=prototype_url target="_blank">here</a> to view the users' flows to interact with the prototype. We have also created a short video to demonstrate the main functionality of our idea of an improved BBDC app (please unmute)!
               </p>
             </div>
           </div>
@@ -175,4 +209,12 @@ export default {
 
 <style scoped>
 @import '../../assets/GlobalStyle.css';
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
 </style>
