@@ -1,18 +1,14 @@
 <script>
 import NavigationBar from '../../components/NavigationBar.vue';
-// import PDFViewer from 'pdf-viewer-vue'
 
 export default {
   components: {
     NavigationBar,
-    // PDFViewer
   },
   data() {
     return {
       page: "ui_ux",
       ddl_link: "edm_microsite",
-      url: ""
-      // url: "../../files/ux_indiv_assignment_compressed.pdf",
     }
   }
 }
@@ -117,27 +113,6 @@ export default {
             </div>
           </div>
         </div>
-
-        <!-- <div class="row">
-          <div class="col-sm">
-            <PDFViewer
-              class="hide-pdf"
-              :source="url"
-              style="height:100vh; object-fit: contain;"
-              @download="handleDownload"
-            />
-
-            <div class="show-pdf-link">
-              <p class="text">
-                Interested to know about the detailed steps?
-                The PDFViewer is too big to view on this screen size. Click
-                <a class="link" href="../../files/ux_indiv_assignment_compressed.pdf" target="_blank">here</a>
-                to view my report.
-              </p>
-            </div>
-          </div>
-        </div> -->
-
 
         <div class="row">
           <div class="col-sm col-center">

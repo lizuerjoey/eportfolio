@@ -31,12 +31,12 @@ export default {
                         <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='bbdc'}" to="/eportfolio/ui_ux/improved_bbdc_app/">
                             Improved BBDC App
                         </RouterLink>
-                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='mindflex_music'}" to="/eportfolio/ui_ux/mindflex_music/">
+                        <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='mindflex_music'}" to="/eportfolio/ui_ux/mindflex_music/">
                             MindFlex Music Page
                         </RouterLink>
                         <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='mindflex_testpapers'}" to="/eportfolio/ui_ux/mindflex_free_test_paper/">
                             MindFlex Free Test Paper Page
-                        </RouterLink>
+                        </RouterLink> -->
                         <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='shopee2020'}" to="/eportfolio/ui_ux/shopee_ar_filter_and_business_insights/">
                             Shopee AR Filter & Business Insights
                         </RouterLink>
