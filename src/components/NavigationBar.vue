@@ -55,18 +55,18 @@ export default {
                     Programming
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='ljs'}" to="/eportfolio/programming/learning_journey_system/">
+                        <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='ljs'}" to="/eportfolio/programming/learning_journey_system/">
                             Learning Journey System
-                        </RouterLink>
+                        </RouterLink> -->
                         <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='app'}" to="/eportfolio/programming/mindflex_app/">
                             MindFlex App
                         </RouterLink>
                         <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='wa_tele'}" to="/eportfolio/programming/mindflex_whatsapp_and_telegram/">
                             MindFlex Whatsapp and Telegram
                         </RouterLink>
-                        <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='operations'}" to="/eportfolio/programming/mindflex_operations/">
+                        <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='operations'}" to="/eportfolio/programming/mindflex_operations/">
                             MindFlex Operations Website (3 kinds)
-                        </RouterLink>
+                        </RouterLink> -->
                         <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='operations'}" to="/eportfolio/programming/mindflex_operations/">
                             MindFlex Blog Tabs
                         </RouterLink> -->
