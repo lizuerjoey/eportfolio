@@ -7,7 +7,7 @@ export default {
   },
   data() {
     return {
-      page: "ui_ux",
+      page: "prg",
       ddl_link: "ljs"
     }
   }

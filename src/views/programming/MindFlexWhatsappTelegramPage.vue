@@ -7,8 +7,8 @@ export default {
   },
   data() {
     return {
-      page: "ui_ux",
-      ddl_link: "ljs"
+      page: "prg",
+      ddl_link: "wa_tele"
     }
   }
 }

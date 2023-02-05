@@ -67,13 +67,13 @@ export default {
                         <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='operations'}" to="/eportfolio/programming/mindflex_operations/">
                             MindFlex Operations Website (3 kinds)
                         </RouterLink> -->
-                        <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='operations'}" to="/eportfolio/programming/mindflex_operations/">
+                        <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='tabs'}" to="/eportfolio/programming/mindflex_blog_tabs/">
                             MindFlex Blog Tabs
                         </RouterLink> -->
                         <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='front_end'}" to="/eportfolio/programming/click_to_know_more/">
                             MindFlex Click to Know More
                         </RouterLink>
-                        <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='operations'}" to="/eportfolio/programming/mindflex_operations/">
+                        <!-- <RouterLink class="dropdown-item" :class="{'ddl-link-selected': ddl_link=='scraping'}" to="/eportfolio/programming/scraping/">
                             MindFlex Web Scraping
                         </RouterLink> -->
                     </div>
