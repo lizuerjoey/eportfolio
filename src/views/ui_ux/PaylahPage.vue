@@ -56,13 +56,13 @@ export default {
             </div>
           </div>
           <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/competitive_edge_template.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/dbs_paylah/competitive_edge_template.png" />
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm image-text-container col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/competitive_edge_template_used.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/dbs_paylah/competitive_edge_template_used.png" />
           </div>
           <div class="col-sm">
             <div>
@@ -104,7 +104,7 @@ export default {
             </div>
           </div>
           <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/low_fi.jpg" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/dbs_paylah/low_fi.jpg" />
           </div>
         </div>
 
@@ -122,15 +122,15 @@ export default {
             <p class="text">
               Some examples of how the DBS Design Language Guidelines was considered and applied into the application.
             </p>
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/radio_button_guideline.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/radio_button_guideline_applied.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/dbs_paylah/radio_button_guideline.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/dbs_paylah/radio_button_guideline_applied.png" />
             <p class="text text-center pt-3">
               Design of radio button remains, and icon placed behind text instead of the radio button.
             </p>
 
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_1.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_2.png" />
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/loading_screen_guideline_applied.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/dbs_paylah/loading_screen_guideline_1.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/dbs_paylah/loading_screen_guideline_2.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/dbs_paylah/loading_screen_guideline_applied.png" />
             <p class="text text-center pt-3">
               I dimmed the screen and the text is below. However, one limitation was that I was unable to find the same loading icon.
             </p>
@@ -139,7 +139,7 @@ export default {
 
         <div class="row">
           <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/mrt_paylah_user_workflow.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/dbs_paylah/mrt_paylah_user_workflow.png" />
           </div>
           <div class="col-sm image-text-container">
             <div>

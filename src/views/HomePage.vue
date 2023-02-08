@@ -30,7 +30,7 @@ export default {
             </button>
           </div>
           <div class="col-sm col-center">
-            <img src="../assets/profile.jpg">
+            <img src="../assets/home/profile.jpg">
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@ export default {
         <p class="title">Tools Used</p>
         <div class="row">
           <div class="col-sm-2 col-center">
-            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/figma.png"/>
+            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/home/figma.png"/>
           </div>
           <div class="col-sm-4 image-text-container">
             <div>
@@ -74,7 +74,7 @@ export default {
             </div>
           </div>
           <div class="col-sm-2 col-center">
-            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/github.png"/>
+            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/home/github.png"/>
           </div>
           <div class="col-sm-4 image-text-container">
             <div>
@@ -88,7 +88,7 @@ export default {
 
         <div class="row">
           <div class="col-sm-2 col-center">
-            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/vuejs.png"/>
+            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/home/vuejs.png"/>
           </div>
           <div class="col-sm-4 image-text-container">
             <div>
@@ -99,7 +99,7 @@ export default {
             </div>
           </div>
           <div class="col-sm-2 col-center">
-            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/bootstrap.png"/>
+            <img class="tools-img" width="90%" style="object-fit: contain;" src="../assets/home/bootstrap.png"/>
           </div>
           <div class="col-sm-4 image-text-container">
             <div>
@@ -114,7 +114,7 @@ export default {
         <!-- <div class="row">
           <div class="col-sm image-text-container">
             <div class="image">
-              <img width=120 src="../assets/vuejs.png"/>
+              <img width=120 src="../assets/home/vuejs.png"/>
             </div>
             <div class="img-left-text-right">
               <p style="margin-bottom:0px" class="subtitle">Vue Js</p>
@@ -126,7 +126,7 @@ export default {
 
           <div class="col-sm image-text-container">
             <div class="image">
-              <img width=110 src="../assets/bootstrap.png"/>
+              <img width=110 src="../assets/home/bootstrap.png"/>
             </div>
             <div class="img-left-text-right">
               <p style="margin-bottom:0px" class="subtitle">Bootstrap</p>

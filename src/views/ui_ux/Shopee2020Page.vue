@@ -82,7 +82,7 @@ export default {
               <p class="text">
                 I had to do various research such as finding evidence to prove whether our solution was feasible based on the current technological advancement. Below is our business model. 
               </p>
-              <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/shopee2020_business_model.png" />
+              <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/shopee2020/shopee2020_business_model.png" />
             </div>
           </div>
         </div>
@@ -223,7 +223,7 @@ export default {
               <p class="text">
                 I also designed an infographic that was uploaded on Facebook. We wanted a layout that could fit both consumer and seller point of view. Also, we wanted the colour to be attractive to stand out from other groups post. The image loads a little slow, please check out our poster through our <a class="link" :href=fb_link target="_blank">Facebook post</a> instead!
               </p>
-              <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/shopee2020_fb_infographic.jpg" />
+              <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/shopee2020/shopee2020_fb_infographic.jpg" />
             </div>
           </div>
         </div>

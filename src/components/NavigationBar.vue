@@ -8,7 +8,7 @@ export default {
     <nav class="navbar navbar-expand-lg navbar-light nav-design">
         <!--Home Page-->
         <RouterLink class="home-icon" to="/eportfolio/">
-            <img style="margin-right: 8px" src="../assets/home.png" width="30" height="30" alt=""/>
+            <img style="margin-right: 8px" src="../assets/home/home.png" width="30" height="30" alt=""/>
             Joey
         </RouterLink>
 

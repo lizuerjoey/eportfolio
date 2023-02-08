@@ -119,7 +119,7 @@ export default {
             </div>
           </div>
           <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/user_stories.webp" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/patch/user_stories.webp" />
           </div>
         </div>
 
@@ -295,13 +295,13 @@ export default {
 
         <div class="row">
           <div class="col-sm">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/patch_poster_1.webp" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/patch/patch_poster_1.webp" />
           </div>
           <div class="col-sm">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/patch_poster_2.webp" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/patch/patch_poster_2.webp" />
           </div>
           <div class="col-sm">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/patch_poster_3.webp" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/patch/patch_poster_3.webp" />
           </div>
         </div>
 
@@ -313,7 +313,7 @@ export default {
             <p class="text">
               My groupmates chose the 3rd poster on the right as the best one. My teacher gave his feedback - that the heading should be more clear. Hence, I made an improved version heading his comments.
             </p>
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/final_patch_poster.webp" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/patch/final_patch_poster.webp" />
           </div>
         </div>
 

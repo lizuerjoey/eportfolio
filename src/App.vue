@@ -8,10 +8,10 @@
       Lee Joey E-portfolio 2023
       <br>
       <a href="mailto:lizuer.joey@gmail.com">
-        <img class="footer-icons" src="./assets/email.png">
+        <img class="footer-icons" src="./assets/home//email.png">
       </a>
       <a href="https://www.linkedin.com/in/lee-joey-568689141/" target="_blank">
-        <img class="footer-icons" src="./assets/linkedin.png">
+        <img class="footer-icons" src="./assets/home//linkedin.png">
       </a>
     </footer>
 </template>

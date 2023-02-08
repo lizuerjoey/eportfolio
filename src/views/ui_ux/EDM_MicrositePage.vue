@@ -56,7 +56,7 @@ export default {
 
         <div class="row">
           <div class="col-sm">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/edm_microsite_persona.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/edm_microsite/edm_microsite_persona.png" />
           </div>
         </div>
 
@@ -75,13 +75,13 @@ export default {
             </div>
           </div>
           <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/heuristic_evaluation.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/edm_microsite/heuristic_evaluation.png" />
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm col-center image-text-container">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/proposed_information_architecture.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/edm_microsite/proposed_information_architecture.png" />
           </div>
           <div class="col-sm">
             <div>
@@ -116,7 +116,7 @@ export default {
 
         <div class="row">
           <div class="col-sm col-center">
-            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/high_fid_poster.png" />
+            <img width="100%" style="object-fit: contain;" src="../../assets/ui_ux/edm_microsite/high_fid_poster.png" />
           </div>
           <div class="col-sm image-text-container">
             <div>
