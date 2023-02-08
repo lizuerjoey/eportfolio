@@ -1,6 +1,6 @@
 <script>
 export default {
-    props:['page', 'ddl_link'],
+    props:['page', 'ddl_link']
 }
 </script>
 
@@ -131,6 +131,10 @@ export default {
             </ul>
         </div>
     </nav>
+
+    <div class="alert alert-info mb-0" role="alert">
+        This e-portfolio is still updating. Feel free to view the old portfolio <b><a href="https://lizuerjoey.wixsite.com/eportfolio">here</a></b>.
+    </div>
 </template>
 
 <style>

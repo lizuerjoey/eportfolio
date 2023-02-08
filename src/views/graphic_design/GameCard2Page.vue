@@ -7,8 +7,8 @@ export default {
   },
   data() {
     return {
-      page: "ui_ux",
-      ddl_link: "ljs"
+      page: "graphic",
+      ddl_link: "game_card_2"
     }
   }
 }

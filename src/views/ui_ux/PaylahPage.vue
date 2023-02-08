@@ -33,7 +33,7 @@ export default {
             <p class="text">
               Hence, during my internship at DBS Asia X in 2019, my supervisor tasked me to do up a wireframe of any app, I took the opportunity to draw this idea.
             </p>
-            <p>
+            <p class="text">
               The application design needs to enhance an aspect of user experience of any application, it could be based on an existing DBS application or it could be a start-idea using the DBS Design Language. The DBS Design Language is a set of guidelines that DBS follows when they design a web or mobile application. 
             </p>
           </div>
