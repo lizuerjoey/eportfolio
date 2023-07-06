@@ -4,7 +4,7 @@
 <template>
   <RouterView></RouterView>
   
-  <footer>
+  <!-- <footer>
       Lee Joey E-portfolio 2023
       <br>
       <a href="mailto:lizuer.joey@gmail.com">
@@ -13,7 +13,7 @@
       <a href="https://www.linkedin.com/in/lee-joey-568689141/" target="_blank">
         <img class="footer-icons" src="./assets/home//linkedin.png">
       </a>
-    </footer>
+    </footer> -->
 </template>
 
 <style>

@@ -1,0 +1,131 @@
+.grey-gradient-bg {
+    background: linear-gradient(52deg, #FFF 0%, #C6C6C8 100%);
+    min-height: 100vh;
+}
+
+/* p {
+    font-family: 'Open Sans', sans-serif;
+    color: #0A1930;
+} */
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+.text {
+    font-size: 15px;
+    text-align: justify;
+}
+
+img {
+    max-height: 60vh;
+}
+
+.col-center {
+    display: flex;
+    justify-content: center;
+}
+
+.highlighted-works-box {
+    border: 1px solid black; 
+    padding: 20px;
+    flex-grow: 1;
+}
+
+button {
+    background-color: #0A1930;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.image-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tools-img {
+    padding: 5px;
+    width: 100% !important
+}
+
+/* On screens that are 540px or less */
+@media screen and (max-width: 575px) {
+    .tools-img {
+        width: 50% !important;
+        padding: 20px;
+    }
+}
+
+/* On screens that are 535px or less */
+@media screen and (max-width: 540px) {
+    .hide-pdf {
+        display: none !important;
+    }
+}
+
+/* On screens that are 540px or more */
+@media screen and (min-width: 540px) {
+    .show-pdf-link {
+        display: none !important;  
+    }
+}
+
+.highlight {
+    background-color: #E6B86B;
+    color: white;
+    padding: 0 3px;
+}
+
+.image {
+    flex-basis: 40%;
+}
+
+.subtitle {
+    font-weight: bold;
+    color: #0A1930;
+}
+
+.highlighted-subtitle {
+    font-weight: bold;
+    color: #E6B86B;
+}
+
+.img-left-text-right {
+    padding-left: 20px;
+    text-align: justify;
+}
+
+.link, .link:hover {
+    color: #E6B86B;
+}
+
+.link:hover {
+    font-weight: bold;
+}
+
+/* footer {
+    background-color: #0A1930;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 60px 0;
+} */
+
+/* .footer-icons {
+    padding: 10px 10px 0px 10px;
+} */
+
+/* Tags */
+.uiux-tag, .programming-tag, .graphic-design-tag {
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.uiux-tag {
+    background-color: #E6B86B;
+}
